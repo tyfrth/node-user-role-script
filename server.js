@@ -11,7 +11,6 @@ const management = new ManagementClient({
 const users = Array.from({ length: 10 }, (_, i) => ({
   user_id: `rolePermissionsTest${i}`,
   email: `Testuser${i}@example.com`,
-  password: 'Password123',
   connection: 'Username-Password-Authentication', // replace with your connection
 }));
 
