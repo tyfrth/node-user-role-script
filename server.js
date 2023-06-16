@@ -43,10 +43,10 @@ const main = async () => {
 
    await createUsers();
    await assignRoleToUsers(preExistingRoleId);
-  // await deleteUsers();
+   await deleteUsers();
 
-  //  await createUsers();
-  //  await assignRoleToUsers(role.id);
+   await createUsers();
+   await assignRoleToUsers(role.id);
   } catch (error) {
     console.error(error);
   }
