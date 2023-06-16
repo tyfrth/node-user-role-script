@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "auth0": "^3.4.0",
+    "dotenv": "^16.3.0"
+  }
+}
